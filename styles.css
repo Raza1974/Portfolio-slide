@@ -120,7 +120,11 @@ footer:hover {
   color: #795548;
   margin-top: 10px;
 }
-
+.aligned-text {
+  text-align: justify;
+  margin: 20px;
+  line-height: 1.6;
+}
 /* Slider Buttons */
 .arrows {
   text-align: center;
