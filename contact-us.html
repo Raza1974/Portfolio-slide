@@ -59,10 +59,31 @@
         <p><a href="mailto:asimr6573@gmail.com?subject=Contact%20Form&body=Hi,%20I%20want%20to%20get%20in%20touch%20with%20you.">Send me an email</a></p>
 
         <!-- Google Form Embed -->
-        <h2>Send a Message via Form</h2>
-         <!-- Embed your Google Form here -->
-         <iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSeI-YourFormID/viewform?embedded=true" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-       </section>
+          <h2>Send a Message via Form</h2>
+<div class="form-container">
+    <iframe title="Contact Form" src="https://docs.google.com/forms/d/e/1FAIpQLSeI-YourFormID/viewform?embedded=true" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">
+        Loading…
+    </iframe>
+</div>
+
+<style>
+.form-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.form-container iframe {
+    width: 120%;
+    height: 300px;
+    border: none;
+}
+</style>
+   </section>
        <footer>
       <p>Prepared by Syed Mohammad Raza Rizvi © 2024</p>
   </footer>
